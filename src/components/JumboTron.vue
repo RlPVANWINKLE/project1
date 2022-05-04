@@ -48,8 +48,8 @@
                 </v-col>
                 </v-row>
             </v-container>
-            <div class="text-center mt-md-10">
-                <v-btn rounded color="amber">Submit</v-btn>
+            <div class="text-center mt-md-10 ">
+                <v-btn rounded color="blue darken-4" class="white--text pa-md-8">Submit</v-btn>
             </div>
     </v-form>
   </v-img>

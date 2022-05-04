@@ -23,7 +23,7 @@ export default {
      data(){
          return{
              side: false,
-             list: ['How It Works','How It Works','How It Works','How It Works','How It Works']
+             list: ['Home','How It Works','Why Us','Testimonials','FAQs', 'Recent Purchases']
          }
      }
 }

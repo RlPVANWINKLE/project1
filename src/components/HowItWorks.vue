@@ -17,18 +17,28 @@ export default {
             cards:[
                 {
                     num: '#1',
-                    title: 'Vehicle Information',
-                    description: 'Get started by pulling together your vehicle information and call or complete the anonymous form to get your top cash offer.'
+                    title: 'Fill out a form that provides accurate information about your car (i.e., VIN, year, make, model, mileage, condition of car, accidents',
+                    
                 },
                 {
                     num: '#2',
-                    title: 'Set A Date',
-                    description: 'Once we have an agreement on a fair, upfront cash offer, we arrange everything! A tow truck will be sent to your location and pays you on the spot.'
+                    title: 'Get an instant offer on your car that is good for 7 days.',
                 },
                 {
                     num: '#3',
-                    title: 'Get Paid',
-                    description: 'Once you are paid and the paperwork is completed, we tow the vehicle away and you’ll never have to deal with it again!'
+                    title: 'Provide access to car.  Deliver car to closest cardeal location or have us come get it.',
+                },
+                {
+                    num: '#4',
+                    title: 'Provide title proving your ownership of the vehicle.',
+                },
+                {
+                    num: '#5',
+                    title: 'Cardeal will inspect your car to verify its condition.',
+                },
+                {
+                    num: '#6',
+                    title: 'If everything checks out, you can decide if you want to accept the offer.  You can go with cash or apply the money to a trade in.',
                 }
             ]
         }
