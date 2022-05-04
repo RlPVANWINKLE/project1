@@ -2,13 +2,13 @@
     <nav>
         <v-app-bar fixed>
             <v-app-bar-nav-icon @click="side = !side"></v-app-bar-nav-icon>
-            <span class="blue--text text--darken-4 text-md-h2 font-weight-black">Car</span>
-            <span class="grey--text text-md-h2 font-weight-bold">Deal</span>
+            <span class="blue--text text--darken-4 text-md-h2 text-sm-h4 font-weight-black">Car</span>
+            <span class="grey--text text-md-h2 text-sm-h4 font-weight-bold">Deal</span>
         </v-app-bar>
         <v-navigation-drawer app v-model="side" class="light-blue darken-4" >
             <v-img src="../images/Capture.jpg" max-width="75%" class="mx-auto mt-10 rounded-circle link" @click="side = !side"></v-img>
             <v-container  class="mt-5">
-                <v-row v-for="(i, index) in list" :key="index" justify="center" class="mt-sm-10 py-2 mx-md-10 rounded-pill link" @click="goto(list[index]); side = !side">{{list[index]}}</v-row>
+                <v-row v-for="(i, index) in list" :key="index" justify="center" class="mt-sm-10 py-2 mx-sm-5 mx-md-10 rounded-pill link" @click="goto(list[index]); side = !side">{{list[index]}}</v-row>
             </v-container>            
         </v-navigation-drawer>
     </nav>

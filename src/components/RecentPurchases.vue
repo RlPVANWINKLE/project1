@@ -1,6 +1,6 @@
 <template>
     <v-container fluid id="Recent Purchases">
-        <h2 class="text-md-h3 text-center mb-10">Recent Purchases</h2>
+        <h2 class="text-md-h3 text-sm-h4 text-h4 text-center mb-10">Recent Purchases</h2>
         <v-row justify="center" align="center">
             <v-col md="4" v-for="(car, index) in cars" :key="index" class="">
                 <v-card  class="pt-10">

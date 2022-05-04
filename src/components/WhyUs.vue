@@ -1,7 +1,7 @@
 <template>
     <v-container fluid class="mt-md-10" id="Why Us">
         <v-card class="">
-            <v-card-title class=" justify-center text-md-h3 text-decoration-underline">Why Choose Us?</v-card-title>
+            <v-card-title class=" justify-center text-md-h3 text-sm-h4 text-h4 text-decoration-underline">Why Choose Us?</v-card-title>
             <v-row justify="center" class="mt-md-10">
                 <v-col v-for="(card, index) in cards" :key="index" md="3">
                     <v-card hover >

@@ -8,7 +8,7 @@
           <v-card-title justify="center" class="justify-center text-md-h3 text-decoration-underline white--text mt-md-10">We Buy 'Any' Car</v-card-title>
             <v-container >
             <v-row justify="center" class="mt-md-10">
-                <v-col cols="12" md="4" class="white rounded ma-2">
+                <v-col cols="6" md="4" class="white rounded ma-2">
                 <v-text-field
                     v-model="Vin"
                     :rules="VinRules"
@@ -19,7 +19,7 @@
                 ></v-text-field>
                 </v-col>
 
-                <v-col cols="12" md="4" class="white rounded ma-2">
+                <v-col cols="6" md="4" class="white rounded ma-2">
                 <v-select
                     v-model="select"
                     :items="make"
@@ -30,7 +30,7 @@
                 </v-col>
                 </v-row>
                 <v-row justify="center" class="mt-md-10">
-                <v-col cols="12" md="4" class="white rounded ma-2">
+                <v-col cols="6" md="4" class="white rounded ma-2">
                 <v-select
                     v-model="select"
                     :items="year"
@@ -39,7 +39,7 @@
                     required
                 ></v-select>
                 </v-col> 
-                <v-col cols="12" md="4" class="white rounded ma-2">
+                <v-col cols="6" md="4" class="white rounded ma-2">
                     <v-text-field
                     v-model="model"
                     label="Model"
@@ -48,8 +48,8 @@
                 </v-col>
                 </v-row>
             </v-container>
-            <div class="text-center mt-md-10 ">
-                <v-btn rounded color="blue darken-4" class="white--text pa-md-8">Submit</v-btn>
+            <div class="text-center mt-md-10 my-sm-5">
+                <v-btn rounded color="blue darken-4" class="white--text pa-md-8 pa-sm-8">Submit</v-btn>
             </div>
     </v-form>
   </v-img>

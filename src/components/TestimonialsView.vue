@@ -1,16 +1,16 @@
 <template>
   <v-container fluid id="Testimonials">
-      <h2 class=" text-md-h3 text-center white--text text-decoration-underline ">Testimonials</h2>
-      <v-carousel class="mt-md-10" :continuous="true" hide-delimiters show-arrows-on-hover>
+      <h2 class=" text-md-h3 text-sm-h4 text-center white--text text-decoration-underline ">Testimonials</h2>
+      <v-carousel class="mt-md-10 mt-sm-5" :continuous="true" hide-delimiters show-arrows-on-hover>
         <v-carousel-item
             v-for="(item,i) in items"
             :key="i"
             reverse-transition="fade-transition"
             transition="fade-transition"
         >
-        <v-card width="25vw" height="50vh" class="mx-auto pt-md-10 rounded-xl">
+        <v-card width=auto height="50vh" class="mx-auto pt-md-10 rounded">
             
-            <v-img contain height="45%" class="" :src="item.src"></v-img>
+            <v-img contain max-height="60%" class="" :src="item.src"></v-img>
             <v-card-title class="text-md-h4 mx-md-auto">{{item.name}}</v-card-title>
             <v-card-text class="">{{item.review}} </v-card-text>
             <v-row justify="center">
