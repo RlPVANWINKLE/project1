@@ -1,5 +1,5 @@
 <template>
-    <v-container class="mt-md-10">
+    <v-container class="mt-md-10" id="How It Works">
         <h2 class=" text-md-h3 text-center white--text text-decoration-underline ">How It Works</h2>
         <v-col>
             <v-card v-for="(card, index) in cards" :key="index" width="50%" class="mx-auto my-md-2">

@@ -1,5 +1,5 @@
 <template>
-  <div class="grey">
+  <div class="grey" id="Home">
     <jumbo/>
     <how/>
     <why/>

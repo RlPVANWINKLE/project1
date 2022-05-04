@@ -29,8 +29,9 @@
                 <v-btn
                 v-for="link in links"
                 :key="link"
-                class="mx-4 white--text"
+                class="mx-8 white--text"
                 icon
+                @click="goto(link)"
                 >               
                 {{ link }}
                 </v-btn>
@@ -70,7 +71,7 @@
       ],
       links: [
           'Home',
-          'Reviews',
+          'Testimonials',
           'FAQs',
       ],
       icon: [
@@ -79,5 +80,12 @@
           'mdi-fax'
       ]
     }),
+    methods:{
+      methods:{
+         goto(id){
+            document.getElementById(id).scrollIntoView();
+        }
+     }
+    }
   }
 </script>
