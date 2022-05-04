@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
       <h2 class=" text-md-h3 text-center white--text text-decoration-underline ">Testimonials</h2>
-      <v-carousel class="mt-md-10" :continuous="false" hide-delimiters>
+      <v-carousel class="mt-md-10" :cycle="cycle" :continuous="false" hide-delimiters show-arrows-on-hover>
         <v-carousel-item
             v-for="(item,i) in items"
             :key="i"
@@ -31,12 +31,18 @@
           },
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            name: 'Jake',
+            review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda amet expedita exercitationem facere quis fuga perferendis alias neque! Excepturi doloremque impedit asperiores id sunt autem dolor ea quos rem.'
           },
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            name: 'Jake',
+            review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda amet expedita exercitationem facere quis fuga perferendis alias neque! Excepturi doloremque impedit asperiores id sunt autem dolor ea quos rem.'
           },
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            name: 'Jake',
+            review: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda amet expedita exercitationem facere quis fuga perferendis alias neque! Excepturi doloremque impedit asperiores id sunt autem dolor ea quos rem.'
           },
         ],
         cycle: true,
