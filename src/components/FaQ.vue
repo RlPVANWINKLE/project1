@@ -14,7 +14,7 @@
                 </v-list-item-content>
                 </template>
 
-                <v-list-item>
+                <v-list-item style="width: 90%">
                 <v-list-item-content v-text="item.Answer" class="text-md-h5">
                 </v-list-item-content>
                 </v-list-item>

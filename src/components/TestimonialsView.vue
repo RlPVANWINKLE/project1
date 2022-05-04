@@ -8,12 +8,12 @@
             reverse-transition="fade-transition"
             transition="fade-transition"
         >
-        <v-card width=auto height="50vh" class="mx-auto pt-md-10 rounded">
+        <v-card width=auto height="60vh" class="mx-auto pt-md-10 rounded">
             
             <v-img contain max-height="60%" class="" :src="item.src"></v-img>
             <v-card-title class="text-md-h4 mx-md-auto">{{item.name}}</v-card-title>
             <v-card-text class="">{{item.review}} </v-card-text>
-            <v-row justify="center">
+            <v-row justify="center" class="pb-10">
               <v-icon v-for="i in item.stars" :key="i" large color="amber" class="">mdi-star</v-icon>
             </v-row>
             
