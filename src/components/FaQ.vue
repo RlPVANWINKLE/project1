@@ -1,5 +1,5 @@
 <template>
-    <v-card width="98vw" class="mx-auto mb-10" id="FAQs">
+    <v-card width="98vw" class="mx-auto mb-10 mt-md-15" id="FAQs" >
         <h2 class="text-md-h3 text-sm-h4 text-h4 text-center text-decoration-underline pa-md-10 pa-sm-5 pa-2">FAQ's</h2>
         <v-list>
             <v-list-group ripple="true"
