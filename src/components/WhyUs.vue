@@ -3,9 +3,9 @@
         <v-card class="">
             <v-card-title class=" justify-center text-md-h3 text-sm-h4 text-h4 text-decoration-underline">Why Choose Us?</v-card-title>
             <v-row justify="center" class="mt-md-10">
-                <v-col v-for="(card, index) in cards" :key="index" md="3">
+                <v-col v-for="(card, index) in cards" :key="index" cols="8" lg="4" xl="3">
                     <v-card hover >
-                        <v-card-title>{{card.title}}</v-card-title>
+                        <v-card-title class="text">{{card.title}}</v-card-title>
                         <v-img height="30vh" :src="card.img"></v-img>
                         <v-card-text>{{card.desc}}</v-card-text>
                     </v-card>
@@ -40,3 +40,8 @@ export default {
     }
 }
 </script>
+<style scoped>
+.text{
+    word-break: normal;
+}
+</style>

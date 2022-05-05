@@ -1,16 +1,14 @@
 <template>
-  <v-app>
+  <v-app >
     <nav-bar></nav-bar>
-    <v-main>
+    <v-main class="text">
       <router-view/>
     </v-main>
-    <Footer/>
   </v-app>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-import Footer from './components/FooterView.vue'
 export default {
   name: 'App',
 
@@ -19,12 +17,12 @@ export default {
   }),
   components:{
     NavBar,
-    Footer,
   }
 };
 </script>
 <style scoped>
-body{
-  background-color: gray;
+.text{
+  word-break: normal;
 }
+
 </style>
