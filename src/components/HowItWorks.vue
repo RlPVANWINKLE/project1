@@ -1,6 +1,6 @@
 <template>
     <v-container class="mt-md-10 mt-sm-5 " id="How It Works">
-        <h2 class=" text-md-h3 text-sm-h4 text-center white--text text-decoration-underline ">How It Works</h2>
+        <h2 class=" text-md-h3 text-sm-h4 text-h4 text-center white--text text-decoration-underline ">How It Works</h2>
         <v-col>
             <v-card v-for="(card, index) in cards" :key="index" width=auto class="mx-auto my-md-2 my-sm-2 my-2">
                 <v-card-title class="text">{{card.num}} - {{card.title}}</v-card-title>
